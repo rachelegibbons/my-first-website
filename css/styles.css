@@ -3,7 +3,10 @@ body {
   color: white;
   font-family: sans-serif;
 }
+a:link, a:visited, a:active {
+  color: white;
 
+}
 .img {
   position: relative;
 }
@@ -31,11 +34,23 @@ h1 span.spacer {
   padding: 0 5px;
 }
 
-h4 {
+h2 {
   font-family: georgia; serif;
   font-weight: lighter;
   font-size: 48px;
   font-style: italic;
   line-height: 65px;
-  padding: 0px 50px 0px 50px;
+  padding-left: 50px;
+}
+
+h3 {
+  padding-left: 50px;
+}
+
+ul {
+  padding-left: 70px;
+}
+
+p {
+  padding-left: 50px;
 }
